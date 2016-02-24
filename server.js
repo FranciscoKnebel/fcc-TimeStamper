@@ -12,9 +12,8 @@ app.get('/', function(req, res) {
 });
 
 app.get('/*', function(req, res) {
-    var date = url.parse(req.url).pathname;
-    
-    res.send(dateController(date));
+    //Gets time object, containing Unix and Natural time
+    res.end(JSON.stringify(dateController(req.params[0])));
 });
 
 app.listen(port,  function () {
