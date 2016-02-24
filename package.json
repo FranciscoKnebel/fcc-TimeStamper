@@ -1,0 +1,22 @@
+{
+  "name": "fcc-timestamper",
+  "version": "1.0.0",
+  "description": "TimeStamp for freecodecamp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyoZeus/fcc-TimeStamper.git"
+  },
+  "author": "Francisco Knebel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KyoZeus/fcc-TimeStamper/issues"
+  },
+  "homepage": "https://github.com/KyoZeus/fcc-TimeStamper#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
