@@ -20,8 +20,8 @@ module.exports = function (dateParameter) {
         time = setTime(date, true);
     }
     
-    if(time.unix === null)
-        time = { error: "Invalid input!" };
+    /*if(time.unix === null)
+        time = { error: "Invalid input!" };*/
     
     return time;
     
